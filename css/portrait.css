@@ -1,0 +1,27 @@
+body {
+    max-width: 768px;
+}
+
+.container {
+    max-width: 768px;
+}
+
+.content-wrapper {
+    min-height: 643px;
+    max-width: 768px;
+    overflow: hidden;
+    background-position: 115px bottom;
+}
+
+.video-wrap {
+    height: 480px;
+    width: 650px;
+    margin-top: 30px;
+}
+
+#wrapper {
+    height: 100%;
+    width: 600px;
+    -webkit-transform: scale(0.55);
+    margin-left: -80px;
+}

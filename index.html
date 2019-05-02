@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario registro et al.</title>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/video.js"></script>
+    <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/video-js.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!--<link rel="stylesheet" type="text/css" media="all and (orientation:portrait)" href="css/portrait.css">-->
+</head>
+<body class="home">
+    <div class="main-wrapper">
+
+        <div class="content-wrapper" >
+            <div class="content">
+
+                <div id="pantalla-1" class="pantalla-1">
+                    <img class="pantalla-1" src="img/logo-1.png" id="logo-1" alt="">
+                </div>
+
+
+
+
+                <div id="pantalla-2" class="pantalla-2 animated zoomIn">
+
+                    <div style="margin-top: 37px;z-index: 9999" class="row">
+                        <div class="col-md-8 offset-md-4">
+                            <form id="registro">
+                                <div class="form-group">
+                                    <label for="nombre">Name</label>
+                                    <input type="text" name="nombre" class="form-control required" id="inputNombre" aria-describedby="Name" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="apellidos">Surname</label>
+                                    <input type="text" name="apellidos" class="form-control required" id="inputApellido" aria-describedby="Surname" placeholder="Surname" >
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email</label>
+                                    <input type="email" name="email" class="form-control required" id="inputEmail" aria-describedby="Email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="especialidades">Specialty</label>
+                                    <select class="form-control required" name="especialidades" id="especialidades" required>
+                                        <option>Allergology</option>
+                                        <option>linical Analysis</option>
+                                        <option>athological anatomy</option>
+                                        <option>nesthesiology and resuscitation</option>
+                                        <option>ngiology and vascular surgery</option>
+                                        <option>igestive System</option>
+                                        <option>linical Biochemistry</option>
+                                        <option>ardiology</option>
+                                        <option>ardiovascular Surgery</option>
+                                        <option>General and Gastrointestinal Surgery</option>
+                                        <option>Oral and Maxillofacial Surgery</option>
+                                        <option>Orthopedic Surgery and Traumatology</option>
+                                        <option>Pediatric surgery</option>
+                                        <option>Aesthetic and Reconstructive Plastic Surgery</option>
+                                        <option>Thoracic Surgery</option>
+                                        <option>Surgical Medical Dermatology and Venereology</option>
+                                        <option>Endocrinology and Nutrition</option>
+                                        <option>Clinical Pharmacology</option>
+                                        <option>Geriatrics</option>
+                                        <option>Hematology and Hemotherapy</option>
+                                        <option>Immunology</option>
+                                        <option>Work Medicine</option>
+                                        <option>General Practice / Primary Care</option>
+                                        <option>Physical Medicine and Rehabilitation</option>
+                                        <option>Intensive Medicine</option>
+                                        <option>Internal Medicine</option>
+                                        <option>Nuclear Medicine</option>
+                                        <option>Preventive Medicine and Public Health</option>
+                                        <option>Microbiology and Parasitology</option>
+                                        <option>Nephrology</option>
+                                        <option>Pulmonology</option>
+                                        <option>Neurosurgery</option>
+                                        <option>Clinical Neurophysiology</option>
+                                        <option>Neurology</option>
+                                        <option>Obstetrics and Gynecology</option>
+                                        <option>Ophthalmology</option>
+                                        <option>Medical Oncology</option>
+                                        <option>Radiation Oncology</option>
+                                        <option>Otolaryngology</option>
+                                        <option>Pediatrics and Specific Areas</option>
+                                        <option>Psychiatry</option>
+                                        <option>Radiodiagnosis</option>
+                                        <option>Rheumatology</option>
+                                        <option>Urology</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="hospital">Hospital / Clinic</label>
+                                    <input type="text" name="hospital" class="form-control required" id="hospital" aria-describedby="Surname" placeholder="Hospital / Clinic">
+                                </div>
+
+                                <div class="form-check">
+                                    <input type="checkbox" name="check1" class="form-check-input required" id="check1">
+                                    <label class="form-check-label" for="check1" style="font-size: 15px">I am happy to receive information about education and/or collaboration regarding my professional activity</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" name="check2" class="form-check-input required" id="check2">
+                                    <label class="form-check-label" for="check2" style="font-size: 15px"> I have read and agree to the <span class="scrollON" style="color: #1B8DC6;" data-toggle="modal" data-target="#politica">Privacy Policy </span></label>
+                                    <small id="emailHelp" class="form-text text-muted">Et al. informs you that the personal data that you provide by filling out this form will be treated by Et al Scientific SLNE as responsible for this webapp. The purpose of collecting and processing your data is to keep you informed about possible new collaborations and education programmes regarding your professional practice. The legitimation is made through the consent of the interested party. We inform you that the data you provide will be located on the servers of OVH HISPANO SL contracted by Et al. and whose security policy can be found here https://www.ovh.es/proteccion-datos-personales/. You can exercise your right to access, rectification, limitation and deletion of data at lopd@etalpharma.com. You can consult additional and detailed information about data protection in our <span style="color: #1B8DC6;" data-toggle="modal" data-target="#politica">Privacy Policy.</span></small>
+                                </div>
+
+                                <div class="row" style="margin-top: 50px">
+                                    <div class="col-md-2 offset-md-5">
+                                        <button type="submit" id="enviar" class="btn btn-primary">Enviar</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+                <!--<img src="img/logo-2.png" id="logo-2" alt="">-->
+
+                <img  src="img/logo-3.png" id="logo-3" alt="">
+                <img  src="img/retinnova.png" id="retinnova" alt="">
+
+                <div class="swipe">
+
+                </div>
+
+
+
+
+
+
+                <!-- Modal -->
+                <div class="modal fade bd-example-modal-lg" id="politica" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Política de privacidad</h5>
+                                <button style="z-index: 9999" type="button" class="btn btn-primary scrollOFF" data-dismiss="modal">Aceptar</button>
+                            </div>
+                            <div class="modal-body " style="height: 800px">
+                                <div class="scrolling">
+
+                                <span style="color: #1B8DC6;">RESPONSABLE DEL TRATAMIENTO</span><br>
+
+
+
+                                Datos de contacto del responsable: ET AL SCIENTIFIC S.L.N.E, con CIF B84722677, C/Sinesio Delgado 12, 9ºa, 28015 Madrid – España (en adelante ET AL).
+
+
+
+                                Datos de contacto del Delegado de Protección de Datos: puede contactar a través de correo electrónico: lopd@etalpharma.com o en la siguiente dirección postal:
+
+
+
+                                C/ Zamora, 46-48, 4º 5ª, 08005 Barcelona – España.
+
+
+                                <br><br><span style="color: #1B8DC6;">ALCANCE DE LA POLÍTICA</span><br>
+
+
+
+                                Cuando accede y usa esta webapp, se compromete a aceptar esta Política de Privacidad.
+
+
+
+                                La Política de Privacidad de ET AL será aplicable cuando usted como usuario decida rellenar cualquiera de los formularios de contacto o suscripción donde se recojan datos de carácter personal (nombre, email, etc.).
+
+
+
+                                Esta Política de Privacidad podría variar en función de exigencias legislativas o de autoregulación, por lo que le recomendamos que la revise periódicamente.
+
+
+                                <br><br><span style="color: #1B8DC6;">LEYES QUE INCORPORA LA POLÍTICA DE PRIVACIDAD</span><br>
+
+
+
+                                El RGPD (Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas) que es la nueva normativa de la Unión Europea que unifica la regulación del tratamiento de los datos personales en los distintos países de la UE.
+
+
+
+                                La LOPD (Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal y Real Decreto 1720/2007, de 21 de diciembre, el Reglamento de desarrollo de la LOPD) que regula el tratamiento de los datos personales y las obligaciones que debemos asumir los responsables de una  o un blog a la hora de gestionar esta información.
+
+
+
+                                La LSSI (Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico) que regula las transacciones económicas mediante medios electrónicos, como es el caso de este blog.
+
+
+
+                                <br><br><span style="color: #1B8DC6;">CUANDO RECOGEMOS DATOS PERSONALES</span><br>
+
+
+
+                                Recogemos información personal necesaria para la gestión y mantenimiento de algunos de nuestros servicios, concretamente:
+
+
+
+                                Cuando usted rellene el formulario de colaboración con ET AL en el que nos facilite los siguientes datos: nombre, email, NIF, dirección, teléfono, núm. de cuenta IBAN, especialidad y núm. de colegiado (en caso de ser usted médico).
+
+
+
+                                También se recogen otros datos no identificativos obtenidos mediante cookies que se descargan cuando usted navega por esta página y que están detalladas en la Política de Cookies.
+
+
+
+                                <br><br><span style="color: #1B8DC6;">CON QUÉ FINALIDADES RECOGEMOS ESTOS DATOS PERSONALES</span><br>
+
+
+
+                                ET AL recoge sus datos con la finalidad de poder gestionar el contrato de colaboración establecido con usted (definido previamente de manera offline), de cara a facilitar el trámite de pagos o transacciones necesarias para el cumplimiento del contrato de colaboración y para facilitar las comunicaciones en este aspecto.
+
+
+
+                                En cuanto las personas que se hagan seguidoras en alguna de las redes de ET AL, el tratamiento de los datos que se lleve a cabo se regirá por las condiciones de uso, políticas de privacidad y normativas pertenecientes a cada red social y aceptadas previamente por el usuario de ET AL. Sus datos serán tratados con el único fin de administrar correctamente la red social en cuestión y para cualquier otra finalidad que las normativas de las redes sociales permitan. En ningún caso ET AL utilizará los perfiles de seguidores en redes sociales para enviar publicidad de manera individual.
+
+
+
+                                <br><br><span style="color: #1B8DC6;">¿DURANTE CUÁNTO PLAZO CONSERVAREMOS SUS DATOS?</span><br>
+
+
+
+                                Los datos que nos facilite serán almacenados hasta que usted solicite su eliminación.
+
+
+
+                                <br><br><span style="color: #1B8DC6;">LEGITIMACIÓN</span><br>
+
+
+
+                                La base legal para el tratamiento de los datos que nos proporciones es el consentimiento. Usted tendrá en todo momento plenos derechos sobre sus datos personales y sobre el uso de los mismos y podrá ejercitarlos en cualquier momento.
+
+
+
+                                ET AL podrá ceder sus datos a terceros tales como laboratorios farmacéuticos, centros de formación médica, organizadores de eventos médicos y entidades afines que contraten a ET AL con el fin de desarrollar un estudio de mercado. Otros fines pueden ser ofrecerle oportunidades de su interés de cara a la formación y actualización médica.
+
+
+
+                                El envío de datos de carácter personal es obligatorio para formalizar el contrato de colaboración con usted a través de esta página. El no facilitar los datos personales solicitados o el no aceptar la presente política de privacidad supone la imposibilidad de enviar y procesar las solicitudes realizadas en esta webapp.
+
+
+
+                                <br><br><span style="color: #1B8DC6;">DESTINATARIOS</span><br>
+
+
+
+                                Organismos Públicos competentes, Agencia Tributaria, Fuerzas y Cuerpos de Seguridad del Estado, Jueces y Tribunales, cuando ET AL tenga la obligación legal de facilitarlos.
+
+
+
+                                Entidades relacionadas con el mundo farmacéutico tales como laboratorios, colegios de médicos, centros de formación médica y entidades afines que contraten a ET AL con el fin de desarrollar un estudio de mercado.
+
+
+
+                                <br><br><span style="color: #1B8DC6;">DERECHOS DE PROTECCIÓN DE DATOS</span><br>
+
+
+
+                                Puedes enviar una comunicación por escrito al domicilio social de ET AL o a la dirección de correo electrónico lopd@etalpharma.com, incluyendo en ambos casos fotocopia de su DNI u otro documento identificativo similar, para solicitar el ejercicio de los derechos siguientes:
+
+
+
+                                Derecho a solicitar el acceso a los datos personales: usted podrá preguntar a ET AL si está tratando sus datos.
+
+                                Derecho a solicitar su rectificación, o a la supresión de los mismos.
+
+                                Posibilidad de retirar el consentimiento en cualquier momento, sin que ello afecte a la licitud del tratamiento basado en el consentimiento previo a su retirada.
+
+                                Si un usuario considera que hay un problema con la forma en que ET AL está manejando sus datos, puede dirigir sus reclamaciones al Delegado de Protección de Datos o a la autoridad de control en protección de datos que corresponda, siendo la Agencia Española de Protección de Datos la indicada en el caso de España.
+
+
+
+                                <br><br><span style="color: #1B8DC6;">SEGURIDAD Y CONFIDENCIALIDAD</span><br>
+
+
+
+                                ET AL se compromete en respetar la confidencialidad de los datos personales y a su uso estrictamente reservado a la finalidad con la que se recogieron. ET AL también se compromete a guardar los datos y adoptar todas las medidas necesarias para evitar la alteración, pérdida, tratamiento o acceso no autorizado, tal y como establece la normativa vigente de protección de datos.
+
+
+
+                                Además, la página  de ET AL incluye un certificado SSL que asegura la transferencia íntegra y cifrada de los datos entre el servidor y el usuario.
+
+
+
+                                No obstante, ET AL no puede asegurar la total inexpugnabilidad de Internet y, por tanto, la violación de los datos mediante accesos fraudulentos por parte de terceros como hackers u otros. En caso de presentarse algún incidente de seguridad, ET AL se compromete a notificar al momento y con toda la información necesaria a los afectados al respecto del mismo.
+
+
+
+                                Al respecto de la confidencialidad, ET AL le asegura que los datos personales recogidos serán tratados con absoluta confidencialidad, comprometiéndonos a guardar secreto respecto de los mismos y garantizando el deber de guardarlos adoptando todas las medidas necesarias que eviten su alteración, pérdida y tratamiento o acceso no autorizado, de acuerdo con lo establecido en la legislación aplicable.
+
+
+
+                                <br><br><span style="color: #1B8DC6;">RESPONSABILIDAD</span><br>
+
+
+
+                                El usuario será el único responsable a causa de la cumplimentación de los formularios con datos falsos, inexactos, incompletos o no actualizados.
+
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary scrollOFF" data-dismiss="modal">Aceptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal fade bd-example-modal-lg" id="registros" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="registro-tittle">Registros</h5>
+                            </div>
+                            <div class="modal-body">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Surname</th>
+                                        <th scope="col">Email</th>
+                                        <th scope="col">Check1</th>
+                                        <th scope="col">Check2</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody id="items_table">
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="modal-footer">
+                                <button id="close-tabla" type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade bd-example-modal-lg" id="registros-json" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="registro-json-tittle">Registros JSON</h5>
+                            </div>
+                            <div class="modal-body">
+                                <div id="json"></div>
+                            </div>
+                            <div class="modal-footer">
+                                <button id="copy">Copy text</button>
+                                <button id="close-json-tabla" type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade bd-example-modal-lg" id="confirm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="registro-json-tittle">Confirm</h5>
+                            </div>
+                            <div class="modal-body">
+                                Please to continue accept receive information about collaboration and the Privacy Policy
+                            </div>
+                            <div class="modal-footer">
+                                <button id="close-json-tabla" type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

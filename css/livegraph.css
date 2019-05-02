@@ -1,0 +1,91 @@
+/*!
+ * LiveGraph for jQuery v0.0.1
+ * http://github.com/lampieg/livegraph
+ *
+ * Copyright � 2013 lampieg (admin@lampieg.co.uk)
+ * Released under the MIT license
+ */
+
+.challenge-graph {
+	padding-bottom: 10px;
+	margin: 0 auto;
+ }
+
+div.liveGraph div.bars div.bar span {
+	color:#fff;
+	font-size: 12px;
+	border: none !important;
+    font-family: 'Rotis';
+}
+
+div.liveGraph div.bars div {
+    /*background-color: rgba(202,202,202,0.5);*/
+}
+
+div.liveGraph div.bars div span {
+	background-color: #149a7b;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+div.liveGraph div.bars div.bar .barlabel {
+    transform: scale(0);
+}
+
+div.liveGraph div.bars div[bar="bar1"] .barlabel {
+}
+
+div.liveGraph div.bars div[bar="bar2"] .barlabel {
+}
+
+div.liveGraph div.bars div[bar="bar3"] .barlabel {
+}
+
+div.liveGraph div.bars div[bar="bar1"] span {
+    background-color: #4e9381;
+}
+
+div.liveGraph div.bars div[bar="bar2"] span {
+    background-color: #64baa4;
+}
+
+div.liveGraph div.bars div[bar="bar3"] span {
+    background-color: #83c6b4;
+}
+div.liveGraph div.bars div[bar="bar4"] span {
+    background-color: #4e9381;
+}
+
+div.liveGraph div.bars div[bar="bar5"] span {
+    background-color: #64baa4;
+}
+
+div.liveGraph div.bars div[bar="bar6"] span {
+    background-color: #83c6b4;
+}
+
+div.liveGraph div.bars div[bar="bar7"] span {
+    background-color: #c1c1c1;
+}
+
+div.liveGraph div.bars div[bar="bar8"] span {
+    background-color: #00b482;
+    font-size: 0;
+}
+
+div.liveGraph div.bars div[bar="bar9"] span {
+    background-color: #00b482;
+    font-size: 0;
+}
+div.liveGraph div.bars div[bar="bar10"] span {
+    background-color: #00b482;
+    font-size: 0;
+}
+div.liveGraph div.bars div[bar="bar11"] span {
+    background-color: #00b482;
+    font-size: 0;
+}
+div.liveGraph div.bars div[bar="bar12"] span {
+    background-color: #00b482;
+    font-size: 0;
+}
