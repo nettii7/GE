@@ -69,15 +69,16 @@ jQuery(function($) {
 
             e.preventDefault();
 
-            var nombre = $('input[name=nombre]').val()
+            var nombre = $('input[name=nombre]').val();
+            console.log(nombre)
 
             $.ajax({
-                type: "POST",
+                type: "GET",
                 url: "http://192.168.137.1/test/functions.php?action=save",
                 dataType: "json",
                 data: {
                     //id: $(this).data('id')
-                    input_country: nombre,
+                    nombre: nombre,
 
                 },
                 success: function (data) {
